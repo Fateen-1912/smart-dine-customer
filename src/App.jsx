@@ -5,7 +5,7 @@ import { AuthProvider } from './context/AuthContext';
 import WelcomeScreen from './screens/WelcomeScreen';
 import OnboardingScreen from './screens/OnboardingScreen';
 import LoginScreen from './screens/LoginScreen';
-import OTPScreen from './screens/OTPScreen';
+import OTPScreen from './screens/OtpScreen';
 import NameSetupScreen from './screens/NameSetupScreen';
 import HomeScreen from './screens/HomeScreen';
 import DiscoveryScreen from './screens/DiscoveryScreen';
