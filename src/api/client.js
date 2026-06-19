@@ -1,7 +1,7 @@
 // Central API client — all backend calls go through here.
-// Reads VITE_API_URL from .env (default: http://localhost:5000).
+// Reads VITE_API_URL from .env (default: https://smart-dine-api.onrender.com).
 
-export const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+export const BASE_URL = import.meta.env.VITE_API_URL || 'https://smart-dine-api.onrender.com';
 
 function getToken() {
   return localStorage.getItem('accessToken');
